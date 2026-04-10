@@ -1,0 +1,105 @@
+<!DOCTYPE html>.
+
+Gemini dijo
+
+Aquí tienes una estructura profesional, limpia y moderna para Gold Dental. He utilizado el CDN de Tailwind CSS para que el diseño sea responsivo y elegante desde el primer segundo.
+
+HTML
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Dental | Clínica de Especialidades Odontológicas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-blue-600">
+                <i class="fas fa-tooth mr-2"></i>Gold <span class="text-yellow-600">Dental</span>
+            </div>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#inicio" class="hover:text-blue-600 transition">Inicio</a>
+                <a href="#servicios" class="hover:text-blue-600 transition">Servicios</a>
+                <a href="#contacto" class="hover:text-blue-600 transition">Contacto</a>
+            </div>
+            <a href="https://wa.me/123456789" class="bg-green-500 text-white px-5 py-2 rounded-full hover:bg-green-600 transition shadow-lg">
+                <i class="fab fa-whatsapp mr-2"></i>Cita Online
+            </a>
+        </div>
+    </nav>
+
+    <header id="inicio" class="relative bg-blue-900 text-white py-24 px-6 text-center">
+        <div class="absolute inset-0 opacity-20 bg-[url('https://images.unsplash.com/photo-1629909608135-ca2b70f4bb18?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')] bg-cover bg-center"></div>
+        <div class="relative z-10 max-w-3xl mx-auto">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4">Tu sonrisa en manos expertas</h1>
+            <p class="text-xl mb-8 text-blue-100">Clínica de Especialidades Odontológicas con tecnología de vanguardia y calidez humana.</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#servicios" class="bg-yellow-600 hover:bg-yellow-700 text-white px-8 py-3 rounded-lg font-semibold transition">Ver Especialidades</a>
+                <a href="#contacto" class="bg-white text-blue-900 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition">Contáctanos</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="servicios" class="py-20 container mx-auto px-6">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Nuestras Especialidades</h2>
+            <div class="w-20 h-1 bg-yellow-500 mx-auto mt-4"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-xl transition border-t-4 border-blue-500 text-center">
+                <i class="fas fa-microscope text-4xl text-blue-500 mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">Endodoncia</h3>
+                <p class="text-gray-600">Tratamientos de conducto avanzados para salvar tus piezas dentales con el mínimo dolor.</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-xl transition border-t-4 border-blue-500 text-center">
+                <i class="fas fa-align-center text-4xl text-blue-500 mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">Ortodoncia</h3>
+                <p class="text-gray-600">Brackets estéticos e Invisalign para alinear tu sonrisa de forma cómoda y rápida.</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-xl transition border-t-4 border-blue-500 text-center">
+                <i class="fas fa-vial text-4xl text-blue-500 mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">Implantes</h3>
+                <p class="text-gray-600">Recupera la funcionalidad y estética con implantes dentales de alta durabilidad.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto" class="bg-gray-900 text-white py-12 px-6">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div>
+                <h2 class="text-2xl font-bold mb-6 italic">Gold Dental</h2>
+                <p class="mb-4 text-gray-400">Comprometidos con la salud oral de tu familia. Visítanos en nuestra clínica central.</p>
+                <ul class="space-y-3">
+                    <li><i class="fas fa-map-marker-alt text-yellow-500 mr-2"></i> Av. Dental 123, Ciudad Saludable</li>
+                    <li><i class="fas fa-phone text-yellow-500 mr-2"></i> +123 456 7890</li>
+                    <li><i class="fas fa-envelope text-yellow-500 mr-2"></i> citas@golddental.com</li>
+                </ul>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg">
+                <h3 class="text-xl font-bold mb-4">Horario de Atención</h3>
+                <div class="flex justify-between border-b border-gray-700 py-2">
+                    <span>Lunes - Viernes</span>
+                    <span>09:00 - 19:00</span>
+                </div>
+                <div class="flex justify-between border-b border-gray-700 py-2">
+                    <span>Sábados</span>
+                    <span>09:00 - 13:00</span>
+                </div>
+                <div class="flex justify-between py-2 text-yellow-500">
+                    <span>Domingos</span>
+                    <span>Cerrado</span>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-12 pt-8 border-t border-gray-800 text-gray-500 text-sm">
+            &copy; 2026 Gold Dental Clínica de Especialidades. Todos los derechos reservados.
+        </div>
+    </footer>
+
+</body>
+</html>
