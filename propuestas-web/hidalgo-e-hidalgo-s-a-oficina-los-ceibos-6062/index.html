@@ -10,108 +10,109 @@ Gemini dijo
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Hidalgo e Hidalgo S.A. | Oficina Los Ceibos</title>
 <script src="https://cdn.tailwindcss.com"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
 body { font-family: 'Inter', sans-serif; }
-.gradient-overlay { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)); }
+.hero-gradient { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1541888946425-d81bb19480c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); background-size: cover; background-position: center; }
 </style>
 </head>
-<body class="bg-slate-50 text-slate-900 overflow-x-hidden">
+<body class="bg-gray-50 text-gray-800">
 
-<nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between h-20 items-center">
-            <div class="flex-shrink-0">
-                <span class="text-2xl font-bold tracking-tighter text-blue-900">HeH <span class="font-light text-slate-500">Los Ceibos</span></span>
-            </div>
-            <div class="hidden md:block">
-                <div class="ml-10 flex items-baseline space-x-8">
-                    <a href="#inicio" class="text-slate-600 hover:text-blue-900 px-3 py-2 text-sm font-medium transition">Inicio</a>
-                    <a href="#servicios" class="text-slate-600 hover:text-blue-900 px-3 py-2 text-sm font-medium transition">Servicios</a>
-                    <a href="#contacto" class="bg-blue-900 text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-blue-800 transition">Contactar</a>
-                </div>
-            </div>
+<nav class="bg-white shadow-md sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+        <div class="flex flex-col">
+            <span class="font-bold text-xl tracking-tight text-blue-900">H&H S.A.</span>
+            <span class="text-xs uppercase tracking-widest text-gray-500">Oficina Los Ceibos</span>
         </div>
+        <div class="hidden md:flex space-x-8 font-medium">
+            <a href="#inicio" class="hover:text-blue-700 transition">Inicio</a>
+            <a href="#servicios" class="hover:text-blue-700 transition">Servicios</a>
+            <a href="#nosotros" class="hover:text-blue-700 transition">Nosotros</a>
+            <a href="#contacto" class="hover:text-blue-700 transition">Contacto</a>
+        </div>
+        <a href="[https://wa.me/593900000000](https://wa.me/593900000000)" class="md:hidden text-green-600 text-2xl">
+            <i class="fab fa-whatsapp"></i>
+        </a>
     </div>
 </nav>
 
-<header id="inicio" class="relative h-[80vh] flex items-center justify-center text-white">
-    <div class="absolute inset-0 z-0">
-        <img src="[https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80&w=2070](https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80&w=2070)" alt="Construcción" class="w-full h-full object-cover">
-        <div class="absolute inset-0 gradient-overlay"></div>
-    </div>
-    
-    <div class="relative z-10 text-center px-4 max-w-4xl">
-        <h1 class="text-4xl md:text-6xl font-bold mb-6">Hidalgo e Hidalgo S.A.</h1>
-        <p class="text-xl md:text-2xl font-light mb-8 text-slate-200">Construyendo el futuro de Ecuador desde nuestra oficina en Los Ceibos.</p>
-        <a href="#servicios" class="inline-block border-2 border-white text-white px-8 py-3 rounded-full hover:bg-white hover:text-blue-900 transition font-semibold">Descubrir Proyectos</a>
+<header id="inicio" class="hero-gradient h-[80vh] flex items-center justify-center text-center text-white px-4">
+    <div class="max-w-3xl">
+        <h1 class="text-4xl md:text-6xl font-bold mb-4">Construyendo el Futuro del Ecuador</h1>
+        <p class="text-lg md:text-xl mb-8 font-light">Líderes en infraestructura y desarrollo civil con los más altos estándares de calidad.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="#contacto" class="bg-blue-700 hover:bg-blue-800 text-white px-8 py-3 rounded-full font-semibold transition">Contáctanos</a>
+            <a href="#servicios" class="bg-white hover:bg-gray-100 text-blue-900 px-8 py-3 rounded-full font-semibold transition">Nuestros Proyectos</a>
+        </div>
     </div>
 </header>
 
-<section class="py-16 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div class="inline-block p-3 bg-blue-50 rounded-xl mb-4">
-            <svg xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)" class="h-8 w-8 text-blue-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-            </svg>
-        </div>
-        <h2 class="text-3xl font-bold text-slate-800 mb-2">Oficina Los Ceibos</h2>
-        <p class="text-slate-500 max-w-2xl mx-auto">Sede estratégica para la gestión de proyectos de infraestructura civil, vial y portuaria en la región.</p>
+<section id="servicios" class="py-20 container mx-auto px-4">
+    <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-blue-900">Nuestra Experiencia</h2>
+        <div class="w-20 h-1 bg-blue-700 mx-auto mt-4"></div>
     </div>
-</section>
-
-<section id="servicios" class="py-20 bg-slate-50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition">
-                <h3 class="text-xl font-bold mb-4 text-blue-900">Infraestructura Vial</h3>
-                <p class="text-slate-600 leading-relaxed">Expertos en la construcción y mantenimiento de carreteras y puentes con los más altos estándares internacionales.</p>
-            </div>
-            <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition">
-                <h3 class="text-xl font-bold mb-4 text-blue-900">Obras Hidráulicas</h3>
-                <p class="text-slate-600 leading-relaxed">Desarrollo de proyectos de saneamiento, represas y canales, optimizando los recursos hídricos del país.</p>
-            </div>
-            <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition">
-                <h3 class="text-xl font-bold mb-4 text-blue-900">Desarrollo Urbano</h3>
-                <p class="text-slate-600 leading-relaxed">Transformamos entornos urbanos a través de proyectos habitacionales y de servicios integrales.</p>
-            </div>
+    <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-lg transition">
+            <i class="fas fa-road text-4xl text-blue-700 mb-6"></i>
+            <h3 class="text-xl font-bold mb-3">Infraestructura Vial</h3>
+            <p class="text-gray-600">Construcción y mantenimiento de carreteras, puentes y túneles en todo el país.</p>
+        </div>
+        <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-lg transition">
+            <i class="fas fa-building text-4xl text-blue-700 mb-6"></i>
+            <h3 class="text-xl font-bold mb-3">Obras Civiles</h3>
+            <p class="text-gray-600">Desarrollo de complejos industriales y edificaciones de gran escala.</p>
+        </div>
+        <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-lg transition">
+            <i class="fas fa-water text-4xl text-blue-700 mb-6"></i>
+            <h3 class="text-xl font-bold mb-3">Hidráulica</h3>
+            <p class="text-gray-600">Sistemas de riego, saneamiento y proyectos de energía renovable.</p>
         </div>
     </div>
 </section>
 
-<footer id="contacto" class="bg-slate-900 text-white py-12">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div>
-                <h2 class="text-3xl font-bold mb-4">Hidalgo e Hidalgo S.A.</h2>
-                <p class="text-slate-400 mb-6">Guayaquil, Ecuador. Sector Los Ceibos.</p>
-                <div class="space-y-2">
-                    <p class="flex items-center text-slate-300">
-                        <span class="mr-3 font-semibold">📍 Dirección:</span> Av. Principal Los Ceibos
-                    </p>
-                    <p class="flex items-center text-slate-300">
-                        <span class="mr-3 font-semibold">🇪🇨 Región:</span> Costa
-                    </p>
-                </div>
-            </div>
-            <div class="flex flex-col items-start md:items-end">
-                <p class="mb-4 text-slate-400">¿Tienes un proyecto en mente?</p>
-                <a href="[https://wa.me/593900000000](https://wa.me/593900000000)" target="_blank" class="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full transition-all transform hover:scale-105 shadow-lg">
-                    <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.27 9.27 0 01-4.487-1.159l-.323-.192-3.33.873.889-3.246-.21-.334a9.248 9.248 0 01-1.422-4.908c0-5.11 4.155-9.264 9.268-9.264a9.223 9.223 0 016.554 2.715 9.215 9.215 0 012.711 6.551c0 5.111-4.156 9.266-9.269 9.266m10.91-17.468A11.047 11.047 0 0012.043 1.18c-6.113 0-11.085 4.97-11.088 11.086 0 1.954.51 3.86 1.478 5.54L.582 23.35l5.733-1.503a11.026 11.026 0 005.725 1.583h.005c6.112 0 11.086-4.97 11.089-11.087a11.011 11.011 0 00-3.23-7.842z"/>
-                    </svg>
-                    WhatsApp Los Ceibos
-                </a>
-            </div>
+<section id="contacto" class="py-20 bg-gray-100">
+    <div class="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+        <div>
+            <h2 class="text-3xl font-bold text-blue-900 mb-6">Oficina Los Ceibos</h2>
+            <p class="text-gray-600 mb-8">Estamos estratégicamente ubicados en Guayaquil para coordinar operaciones de alta ingeniería.</p>
+            <ul class="space-y-4">
+                <li class="flex items-center">
+                    <i class="fas fa-map-marker-alt text-blue-700 mr-4 w-6"></i>
+                    <span>Sector Los Ceibos, Guayaquil, Ecuador</span>
+                </li>
+                <li class="flex items-center">
+                    <i class="fas fa-phone text-blue-700 mr-4 w-6"></i>
+                    <span>+593 (4) 200-0000</span>
+                </li>
+                <li class="flex items-center">
+                    <i class="fas fa-envelope text-blue-700 mr-4 w-6"></i>
+                    <span>contacto@hidalgoehidalgo.com.ec</span>
+                </li>
+            </ul>
         </div>
-        <div class="mt-12 pt-8 border-t border-slate-800 text-center text-sm text-slate-500">
-            <p>&copy; 2024 Hidalgo e Hidalgo S.A. Todos los derechos reservados.</p>
+        <div class="bg-white p-8 rounded-2xl shadow-xl">
+            <h3 class="text-2xl font-bold mb-6 text-center">Atención Inmediata</h3>
+            <p class="text-center text-gray-500 mb-8">Hable con uno de nuestros asesores técnicos ahora mismo.</p>
+            <a href="[https://wa.me/593900000000](https://wa.me/593900000000)" target="_blank" class="flex items-center justify-center bg-green-500 hover:bg-green-600 text-white py-4 rounded-lg font-bold text-lg transition shadow-lg transform hover:-translate-y-1">
+                <i class="fab fa-whatsapp text-2xl mr-3"></i>
+                Contactar vía WhatsApp
+            </a>
         </div>
+    </div>
+</section>
+
+<footer class="bg-blue-950 text-white py-12 px-4">
+    <div class="container mx-auto text-center border-t border-blue-900 pt-8">
+        <p class="mb-4 font-semibold">Hidalgo e Hidalgo S.A.</p>
+        <p class="text-sm text-blue-300">&copy; 2026 Todos los derechos reservados. Guayaquil, Ecuador.</p>
     </div>
 </footer>
+
+<a href="[https://wa.me/593900000000](https://wa.me/593900000000)" class="fixed bottom-6 right-6 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-2xl z-50 hover:bg-green-600 transition-all transform hover:scale-110 md:hidden">
+    <i class="fab fa-whatsapp text-3xl"></i>
+</a>
 
 
 </body>
