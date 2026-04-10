@@ -10,132 +10,124 @@ Gemini dijo
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Detch Odontología Inteligente | Ecuador</title>
 <script src="https://cdn.tailwindcss.com"></script>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Lexend:wght@400;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 <style>
 body { font-family: 'Inter', sans-serif; }
-h1, h2, h3, .font-lexend { font-family: 'Lexend', sans-serif; }
-.glass-effect { background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px); }
+.glass { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); }
 </style>
 </head>
 <body class="bg-slate-50 text-slate-800">
 
-<nav class="sticky top-0 z-50 glass-effect border-b border-slate-200">
+<nav class="fixed w-full z-50 glass border-b border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between h-16 items-center">
-            <div class="flex-shrink-0">
-                <span class="text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">DETCH</span>
+        <div class="flex justify-between h-20 items-center">
+            <div class="flex-shrink-0 flex items-center">
+                <span class="text-2xl font-bold tracking-tighter text-blue-600">DETCH</span>
+                <span class="ml-2 text-xs uppercase tracking-widest text-slate-500 font-semibold hidden sm:block">Odontología Inteligente</span>
             </div>
             <div class="hidden md:flex space-x-8 text-sm font-medium">
-                <a href="#inicio" class="hover:text-blue-600 transition">Inicio</a>
                 <a href="#servicios" class="hover:text-blue-600 transition">Servicios</a>
                 <a href="#nosotros" class="hover:text-blue-600 transition">Nosotros</a>
-                <a href="#contacto" class="px-4 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">Agendar Cita</a>
+                <a href="#ubicacion" class="hover:text-blue-600 transition">Ubicación</a>
             </div>
-            <div class="md:hidden text-blue-600">
-                <i class="fas fa-bars text-xl"></i>
-            </div>
+            <a href="[https://wa.me/593900000000](https://wa.me/593900000000)" target="_blank" class="bg-blue-600 text-white px-6 py-2 rounded-full text-sm font-bold hover:bg-blue-700 transition shadow-lg shadow-blue-200">
+                Agendar Cita
+            </a>
         </div>
     </div>
 </nav>
 
-<header id="inicio" class="relative py-16 md:py-24 overflow-hidden bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div class="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
-            <div class="mb-12 lg:mb-0">
-                <span class="inline-block px-3 py-1 text-xs font-semibold tracking-wider text-blue-600 uppercase bg-blue-50 rounded-full mb-4">Innovación Dental en Ecuador</span>
-                <h1 class="text-4xl md:text-6xl font-bold text-slate-900 leading-tight mb-6">
-                    Odontología <span class="text-blue-600">Inteligente</span> para tu sonrisa.
-                </h1>
-                <p class="text-lg text-slate-600 mb-8 leading-relaxed">
-                    Combinamos tecnología de vanguardia y calidez humana para ofrecerte tratamientos dentales precisos, cómodos y de alta calidad.
-                </p>
-                <div class="flex flex-col sm:flex-row gap-4">
-                    <a href="#contacto" class="flex items-center justify-center px-8 py-4 bg-blue-600 text-white rounded-xl font-semibold shadow-lg shadow-blue-200 hover:bg-blue-700 transition transform hover:-translate-y-1">
-                        Reservar Consulta
-                    </a>
-                    <a href="[https://wa.me/593900000000](https://wa.me/593900000000)" class="flex items-center justify-center px-8 py-4 bg-white border border-slate-200 text-slate-700 rounded-xl font-semibold hover:bg-slate-50 transition">
-                        <i class="fab fa-whatsapp mr-2 text-green-500 text-xl"></i> WhatsApp
-                    </a>
-                </div>
-            </div>
-            <div class="relative">
-                <div class="absolute -top-4 -left-4 w-64 h-64 bg-blue-100 rounded-full mix-blend-multiply filter blur-3xl opacity-70"></div>
-                <div class="absolute -bottom-8 -right-8 w-64 h-64 bg-cyan-100 rounded-full mix-blend-multiply filter blur-3xl opacity-70"></div>
-                <img src="[https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=800](https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=800)" alt="Consultorio Moderno" class="relative rounded-2xl shadow-2xl">
-            </div>
+<header class="pt-32 pb-16 md:pt-48 md:pb-32 px-4">
+    <div class="max-w-7xl mx-auto text-center">
+        <span class="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-blue-600 uppercase bg-blue-50 rounded-full">
+            Tecnología Dental Avanzada en Ecuador
+        </span>
+        <h1 class="text-4xl md:text-6xl font-bold text-slate-900 mb-6 leading-tight">
+            Tu sonrisa merece una <br class="hidden md:block"> <span class="text-blue-600">atención inteligente.</span>
+        </h1>
+        <p class="text-lg text-slate-600 mb-10 max-w-2xl mx-auto">
+            Combinamos precisión digital y calidez humana para transformar tu salud dental. Vive una experiencia sin dolor y con resultados garantizados.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+            <a href="[https://wa.me/593900000000](https://wa.me/593900000000)" class="bg-slate-900 text-white px-8 py-4 rounded-xl font-bold hover:bg-slate-800 transition">
+                Contactar ahora
+            </a>
+            <a href="#servicios" class="bg-white border border-slate-200 px-8 py-4 rounded-xl font-bold hover:bg-slate-50 transition">
+                Ver servicios
+            </a>
         </div>
     </div>
 </header>
 
-<section id="servicios" class="py-20 bg-slate-50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<section id="servicios" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
         <div class="text-center mb-16">
-            <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Nuestras Especialidades</h2>
-            <div class="w-16 h-1 bg-blue-600 mx-auto"></div>
+            <h2 class="text-3xl font-bold text-slate-900">Nuestras Especialidades</h2>
+            <div class="h-1 w-20 bg-blue-600 mx-auto mt-4"></div>
         </div>
-        
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition">
-                <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center mb-6">
-                    <i class="fas fa-tooth text-blue-600 text-xl"></i>
+            <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-xl transition group">
+                <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-600 transition">
+                    <svg class="w-6 h-6 text-blue-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
                 </div>
-                <h3 class="text-xl font-bold mb-3">Implantes Digitales</h3>
-                <p class="text-slate-600 text-sm leading-relaxed">Planificación 3D para una colocación precisa y mínimamente invasiva.</p>
+                <h3 class="text-xl font-bold mb-3">Implantología Digital</h3>
+                <p class="text-slate-600">Restauramos tu sonrisa con mínima invasión y máxima precisión quirúrgica.</p>
             </div>
-            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition">
-                <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center mb-6">
-                    <i class="fas fa-sparkles text-blue-600 text-xl"></i>
+            <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-xl transition group">
+                <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-600 transition">
+                    <svg class="w-6 h-6 text-blue-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
                 </div>
                 <h3 class="text-xl font-bold mb-3">Diseño de Sonrisa</h3>
-                <p class="text-slate-600 text-sm leading-relaxed">Estética dental personalizada para lograr la armonía que siempre buscaste.</p>
+                <p class="text-slate-600">Estética dental personalizada asistida por computadora para resultados naturales.</p>
             </div>
-            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition">
-                <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center mb-6">
-                    <i class="fas fa-microscope text-blue-600 text-xl"></i>
+            <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-xl transition group">
+                <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-600 transition">
+                    <svg class="w-6 h-6 text-blue-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
                 </div>
-                <h3 class="text-xl font-bold mb-3">Endodoncia Láser</h3>
-                <p class="text-slate-600 text-sm leading-relaxed">Tratamientos de conducto rápidos, sin dolor y con máxima desinfección.</p>
+                <h3 class="text-xl font-bold mb-3">Ortodoncia Invisible</h3>
+                <p class="text-slate-600">Alineación dental estética y cómoda, sin brackets metálicos tradicionales.</p>
             </div>
         </div>
     </div>
 </section>
 
-<a href="[https://wa.me/593900000000](https://wa.me/593900000000)" class="fixed bottom-6 right-6 z-50 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:bg-green-600 transition-all transform hover:scale-110 active:scale-95" target="_blank">
-    <i class="fab fa-whatsapp text-3xl"></i>
-</a>
-
-<footer id="contacto" class="bg-slate-900 text-white pt-16 pb-8">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
-            <div>
-                <h3 class="text-2xl font-bold mb-6">DETCH</h3>
-                <p class="text-slate-400 leading-relaxed">
-                    Líderes en odontología digital en Ecuador. Transformamos vidas a través de la salud bucal inteligente.
+<footer id="ubicacion" class="bg-slate-900 text-white py-16">
+    <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div>
+            <h2 class="text-3xl font-bold mb-6">Detch Odontología Inteligente</h2>
+            <p class="text-slate-400 mb-8 max-w-sm">Estamos ubicados en el corazón de Ecuador, listos para brindarte la mejor atención tecnológica.</p>
+            <div class="space-y-4">
+                <p class="flex items-center text-slate-300">
+                    <svg class="w-5 h-5 mr-3 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    Quito / Guayaquil, Ecuador
+                </p>
+                <p class="flex items-center text-slate-300">
+                    <svg class="w-5 h-5 mr-3 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    hola@detchodontologia.com
                 </p>
             </div>
-            <div>
-                <h4 class="text-lg font-semibold mb-6">Contacto</h4>
-                <ul class="space-y-4 text-slate-400">
-                    <li class="flex items-center"><i class="fas fa-map-marker-alt w-6 text-blue-400"></i> Quito / Guayaquil, Ecuador</li>
-                    <li class="flex items-center"><i class="fas fa-phone w-6 text-blue-400"></i> +593 90 000 0000</li>
-                    <li class="flex items-center"><i class="fas fa-envelope w-6 text-blue-400"></i> info@detch.ec</li>
-                </ul>
-            </div>
-            <div>
-                <h4 class="text-lg font-semibold mb-6">Horarios</h4>
-                <ul class="space-y-2 text-slate-400 text-sm">
-                    <li class="flex justify-between"><span>Lun - Vie:</span> <span>09:00 - 19:00</span></li>
-                    <li class="flex justify-between"><span>Sábado:</span> <span>09:00 - 14:00</span></li>
-                    <li class="flex justify-between"><span>Domingo:</span> <span>Cerrado</span></li>
-                </ul>
-            </div>
         </div>
-        <div class="border-t border-slate-800 pt-8 text-center text-slate-500 text-xs">
-            <p>&copy; 2026 Detch Odontología Inteligente. Todos los derechos reservados.</p>
+        <div class="bg-slate-800 p-8 rounded-2xl">
+            <h3 class="text-xl font-bold mb-4">Horarios de Atención</h3>
+            <ul class="space-y-2 text-slate-400">
+                <li class="flex justify-between border-b border-slate-700 pb-2"><span>Lunes - Viernes</span> <span>09:00 - 19:00</span></li>
+                <li class="flex justify-between border-b border-slate-700 pb-2"><span>Sábados</span> <span>09:00 - 13:00</span></li>
+                <li class="flex justify-between"><span>Domingos</span> <span class="text-blue-400 font-bold italic">Emergencias</span></li>
+            </ul>
         </div>
     </div>
+    <div class="max-w-7xl mx-auto px-4 mt-16 pt-8 border-t border-slate-800 text-center text-slate-500 text-sm">
+        &copy; 2024 Detch Odontología Inteligente. Todos los derechos reservados. Ecuador.
+    </div>
 </footer>
+
+<a href="[https://wa.me/593900000000](https://wa.me/593900000000)" target="_blank" class="fixed bottom-6 right-6 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform z-[100] flex items-center justify-center">
+    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+    </svg>
+</a>
 
 
 </body>
