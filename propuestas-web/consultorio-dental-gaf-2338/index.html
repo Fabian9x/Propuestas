@@ -8,149 +8,119 @@ Gemini dijo
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Consultorio Dental Gaf | Sonrisas que Inspiran en Ecuador</title>
+<title>Consultorio Dental Gaf | Excelencia Dental en Ecuador</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap');
 body { font-family: 'Inter', sans-serif; }
 h1, h2, h3 { font-family: 'Playfair Display', serif; }
+.bg-dental { background-color: #f8fafc; }
+.accent-color { color: #0ea5e9; }
 </style>
 </head>
-<body class="bg-slate-50 text-slate-800 antialiased">
+<body class="bg-dental text-slate-800">
 
-<nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between items-center h-16">
-            <div class="flex-shrink-0 flex items-center">
-                <span class="text-2xl font-bold text-cyan-700">GAF</span>
-                <span class="ml-2 text-sm uppercase tracking-widest text-slate-500">Dental</span>
-            </div>
-            <div class="hidden md:flex space-x-8">
-                <a href="#inicio" class="text-slate-600 hover:text-cyan-700 transition">Inicio</a>
-                <a href="#servicios" class="text-slate-600 hover:text-cyan-700 transition">Servicios</a>
-                <a href="#contacto" class="text-slate-600 hover:text-cyan-700 transition">Contacto</a>
-            </div>
-            <a href="[https://wa.me/593900000000](https://wa.me/593900000000)" class="bg-cyan-700 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-cyan-800 transition shadow-lg shadow-cyan-100">
-                Cita Online
-            </a>
+<header class="fixed w-full z-50 bg-white/80 backdrop-blur-md shadow-sm">
+    <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+        <div class="text-2xl font-bold tracking-tight accent-color">
+            DENTAL <span class="text-slate-900">GAF</span>
         </div>
-    </div>
-</nav>
+        <div class="hidden md:flex space-x-8 font-medium">
+            <a href="#inicio" class="hover:text-blue-500 transition">Inicio</a>
+            <a href="#servicios" class="hover:text-blue-500 transition">Servicios</a>
+            <a href="#nosotros" class="hover:text-blue-500 transition">Nosotros</a>
+            <a href="#contacto" class="hover:text-blue-500 transition">Contacto</a>
+        </div>
+        <button class="md:hidden text-2xl"><i class="fa-solid fa-bars"></i></button>
+    </nav>
+</header>
 
-<section id="inicio" class="relative py-20 lg:py-32 overflow-hidden">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div class="text-center lg:text-left max-w-2xl">
-            <span class="inline-block px-4 py-1.5 mb-6 text-xs font-semibold tracking-wider text-cyan-700 uppercase bg-cyan-50 rounded-full">Excelencia Dental en Ecuador</span>
-            <h1 class="text-4xl md:text-6xl font-bold text-slate-900 leading-tight mb-6">
-                Tu salud dental en manos de <span class="text-cyan-700">expertos.</span>
-            </h1>
-            <p class="text-lg text-slate-600 mb-10 leading-relaxed">
-                En Consultorio Dental Gaf combinamos tecnología de vanguardia y un trato humano para devolverte la confianza de sonreír.
-            </p>
-            <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <a href="[https://wa.me/593900000000](https://wa.me/593900000000)" class="flex items-center justify-center px-8 py-4 bg-green-500 text-white rounded-xl font-bold hover:bg-green-600 transition shadow-xl shadow-green-100">
-                    <i class="fab fa-whatsapp mr-2 text-xl"></i> Agendar por WhatsApp
-                </a>
-                <a href="#servicios" class="flex items-center justify-center px-8 py-4 bg-white text-slate-700 border border-slate-200 rounded-xl font-bold hover:bg-slate-50 transition">
-                    Ver Servicios
-                </a>
+<section id="inicio" class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+    <div class="container mx-auto px-6">
+        <div class="flex flex-col lg:flex-row items-center">
+            <div class="lg:w-1/2 text-center lg:text-left">
+                <span class="inline-block px-4 py-1.5 mb-6 text-sm font-semibold tracking-wider text-blue-600 uppercase bg-blue-50 rounded-full">Odontología de Vanguardia en Ecuador</span>
+                <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6">Tu sonrisa es nuestra <br><span class="text-blue-500">mayor prioridad.</span></h1>
+                <p class="text-lg text-slate-600 mb-10 max-w-lg mx-auto lg:mx-0">
+                    En Consultorio Dental Gaf combinamos tecnología avanzada y un trato humano excepcional para brindarte la mejor experiencia dental.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
+                    <a href="#contacto" class="px-8 py-4 bg-slate-900 text-white rounded-xl font-semibold hover:bg-slate-800 transition shadow-lg shadow-slate-200">Agendar Cita</a>
+                    <a href="[https://wa.me/593900000000](https://wa.me/593900000000)" target="_blank" class="px-8 py-4 bg-green-500 text-white rounded-xl font-semibold hover:bg-green-600 transition flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-xl"></i> WhatsApp
+                    </a>
+                </div>
+            </div>
+            <div class="lg:w-1/2 mt-16 lg:mt-0 relative">
+                <div class="w-72 h-72 md:w-96 md:h-96 bg-blue-100 rounded-full absolute -top-10 -right-10 -z-10 blur-3xl opacity-50"></div>
+                <img src="[https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=800](https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=800)" alt="Consultorio Moderno" class="rounded-3xl shadow-2xl">
             </div>
         </div>
     </div>
-    <div class="hidden lg:block absolute top-0 right-0 w-1/2 h-full bg-slate-200 skew-x-12 translate-x-20 rounded-l-[100px] overflow-hidden opacity-30">
-        </div>
 </section>
 
 <section id="servicios" class="py-20 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-16">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4">Especialidades</h2>
-            <div class="w-20 h-1 bg-cyan-700 mx-auto rounded-full"></div>
-        </div>
-        
+    <div class="container mx-auto px-6 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Nuestros Servicios</h2>
+        <div class="w-20 h-1 bg-blue-500 mx-auto mb-16"></div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="p-8 bg-slate-50 rounded-2xl border border-transparent hover:border-cyan-100 hover:bg-white hover:shadow-2xl transition duration-300">
-                <div class="w-12 h-12 bg-cyan-100 text-cyan-700 rounded-lg flex items-center justify-center mb-6 text-xl">
-                    <i class="fas fa-tooth"></i>
+            <div class="p-8 border border-slate-100 rounded-2xl hover:border-blue-200 hover:shadow-xl transition group">
+                <div class="w-14 h-14 bg-blue-50 rounded-lg flex items-center justify-center mb-6 mx-auto group-hover:bg-blue-500 group-hover:text-white transition">
+                    <i class="fa-solid fa-tooth text-2xl"></i>
                 </div>
-                <h3 class="text-xl font-semibold mb-3">Odontología General</h3>
-                <p class="text-slate-600">Limpiezas profundas, calzas y prevención integral para toda la familia.</p>
+                <h3 class="text-xl font-bold mb-3">Ortodoncia</h3>
+                <p class="text-slate-600">Alineación perfecta para una mordida funcional y una sonrisa estética.</p>
             </div>
-            
-            <div class="p-8 bg-slate-50 rounded-2xl border border-transparent hover:border-cyan-100 hover:bg-white hover:shadow-2xl transition duration-300">
-                <div class="w-12 h-12 bg-cyan-100 text-cyan-700 rounded-lg flex items-center justify-center mb-6 text-xl">
-                    <i class="fas fa-smile"></i>
+            <div class="p-8 border border-slate-100 rounded-2xl hover:border-blue-200 hover:shadow-xl transition group">
+                <div class="w-14 h-14 bg-blue-50 rounded-lg flex items-center justify-center mb-6 mx-auto group-hover:bg-blue-500 group-hover:text-white transition">
+                    <i class="fa-solid fa-wand-magic-sparkles text-2xl"></i>
                 </div>
-                <h3 class="text-xl font-semibold mb-3">Estética Dental</h3>
-                <p class="text-slate-600">Diseño de sonrisa y blanqueamientos con los mejores estándares de calidad.</p>
+                <h3 class="text-xl font-bold mb-3">Diseño de Sonrisa</h3>
+                <p class="text-slate-600">Blanqueamientos y carillas para que luzcas la sonrisa que siempre soñaste.</p>
             </div>
-
-            <div class="p-8 bg-slate-50 rounded-2xl border border-transparent hover:border-cyan-100 hover:bg-white hover:shadow-2xl transition duration-300">
-                <div class="w-12 h-12 bg-cyan-100 text-cyan-700 rounded-lg flex items-center justify-center mb-6 text-xl">
-                    <i class="fas fa-microscope"></i>
+            <div class="p-8 border border-slate-100 rounded-2xl hover:border-blue-200 hover:shadow-xl transition group">
+                <div class="w-14 h-14 bg-blue-50 rounded-lg flex items-center justify-center mb-6 mx-auto group-hover:bg-blue-500 group-hover:text-white transition">
+                    <i class="fa-solid fa-hospital-user text-2xl"></i>
                 </div>
-                <h3 class="text-xl font-semibold mb-3">Ortodoncia</h3>
-                <p class="text-slate-600">Alineación dental perfecta con brackets convencionales y estéticos.</p>
+                <h3 class="text-xl font-bold mb-3">Odontopediatría</h3>
+                <p class="text-slate-600">Cuidado dental especializado para los más pequeños del hogar.</p>
             </div>
         </div>
     </div>
 </section>
 
-<section id="contacto" class="py-20 bg-slate-900 text-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<footer id="contacto" class="bg-slate-900 text-white py-16">
+    <div class="container mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
             <div>
-                <h2 class="text-3xl md:text-4xl font-bold mb-8">¿Listo para mejorar tu sonrisa?</h2>
-                <p class="text-slate-400 mb-8">Estamos ubicados en una zona estratégica de Ecuador para tu comodidad. ¡Visítanos!</p>
-                
-                <ul class="space-y-6">
-                    <li class="flex items-start">
-                        <i class="fas fa-map-marker-alt mt-1.5 mr-4 text-cyan-500"></i>
-                        <span>Av. Principal y Calle Secundaria<br>Quito / Guayaquil, Ecuador</span>
-                    </li>
-                    <li class="flex items-center">
-                        <i class="fas fa-phone mr-4 text-cyan-500"></i>
-                        <span>+593 90 000 0000</span>
-                    </li>
-                    <li class="flex items-center">
-                        <i class="fas fa-envelope mr-4 text-cyan-500"></i>
-                        <span>contacto@gafdental.ec</span>
-                    </li>
-                </ul>
+                <h3 class="text-2xl font-bold mb-6 italic">Dental Gaf</h3>
+                <p class="text-slate-400 leading-relaxed">
+                    Comprometidos con la salud oral de las familias ecuatorianas. Visítanos y descubre un nuevo estándar en odontología.
+                </p>
             </div>
-            <div class="bg-white/5 p-8 rounded-3xl backdrop-blur-sm border border-white/10">
-                <h3 class="text-xl font-semibold mb-6">Horarios de Atención</h3>
-                <div class="space-y-4">
-                    <div class="flex justify-between border-b border-white/10 pb-2">
-                        <span class="text-slate-400">Lunes - Viernes</span>
-                        <span>09:00 - 18:00</span>
-                    </div>
-                    <div class="flex justify-between border-b border-white/10 pb-2">
-                        <span class="text-slate-400">Sábados</span>
-                        <span>09:00 - 13:00</span>
-                    </div>
-                    <div class="flex justify-between">
-                        <span class="text-slate-400">Domingos</span>
-                        <span class="text-cyan-500">Previa Cita</span>
-                    </div>
+            <div>
+                <h4 class="text-lg font-semibold mb-6">Ubicación</h4>
+                <p class="text-slate-400 mb-2"><i class="fa-solid fa-location-dot mr-2"></i> Av. Principal, Quito/Guayaquil, Ecuador</p>
+                <p class="text-slate-400 mb-2"><i class="fa-solid fa-clock mr-2"></i> Lun - Vie: 9am - 7pm</p>
+                <p class="text-slate-400"><i class="fa-solid fa-phone mr-2"></i> +593 900 000 000</p>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold mb-6">Síguenos</h4>
+                <div class="flex space-x-4">
+                    <a href="#" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-500 transition"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-500 transition"><i class="fa-brands fa-facebook-f"></i></a>
                 </div>
-                <a href="[https://wa.me/593900000000](https://wa.me/593900000000)" class="mt-8 w-full block text-center py-4 bg-cyan-600 hover:bg-cyan-500 rounded-xl transition font-bold uppercase tracking-widest text-sm">
-                    Agendar por WhatsApp
-                </a>
             </div>
         </div>
-    </div>
-</section>
-
-<footer class="py-8 bg-slate-900 border-t border-white/5 text-center text-slate-500 text-sm">
-    <div class="max-w-7xl mx-auto px-4">
-        <p>&copy; 2026 Consultorio Dental Gaf - Ecuador. Todos los derechos reservados.</p>
+        <div class="border-t border-slate-800 pt-8 text-center text-slate-500 text-sm">
+            &copy; 2024 Consultorio Dental Gaf - Todos los derechos reservados.
+        </div>
     </div>
 </footer>
 
-<a href="[https://wa.me/593900000000](https://wa.me/593900000000)" class="fixed bottom-6 right-6 z-50 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform duration-300" title="Chatea con nosotros">
-    <i class="fab fa-whatsapp text-3xl"></i>
+<a href="[https://wa.me/593900000000](https://wa.me/593900000000)" target="_blank" class="fixed bottom-6 right-6 w-16 h-16 bg-green-500 text-white rounded-full flex items-center justify-center text-3xl shadow-2xl hover:scale-110 transition-transform z-[100]">
+    <i class="fa-brands fa-whatsapp"></i>
 </a>
 
 
