@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Chrome: sitio (servidor en 8080)",
+      "url": "http://localhost:8080/",
+      "webRoot": "${workspaceFolder}",
+      "preLaunchTask": "static-server-8080"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Chrome: solo URL (tú inicias el servidor)",
+      "url": "http://localhost:8080/",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
